@@ -8,7 +8,7 @@ function App() {
     <BrowserRouter>
     <AnimatePresence exitBeforeEnter>
       <Routes>
-        <Route  index  element={<Login />}/>
+        <Route  path="/react-app"  element={<Login />}/>
         <Route  path="pwd"  element={<PasswordPage />}/>
         </Routes>
       </AnimatePresence>
